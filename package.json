@@ -1,20 +1,23 @@
 {
     "name": "async-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanielSocorro/Async-Project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanielSocorro/Async-Project/issues"
-  },
-  "homepage": "https://github.com/DanielSocorro/Async-Project#readme"
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "gh-pages -d src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DanielSocorro/Async-Project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DanielSocorro/Async-Project/issues"
+    },
+    "homepage": "https://github.com/DanielSocorro/Async-Project#readme",
+    "devDependencies": {
+        "gh-pages": "^4.0.0"
+    }
 }
